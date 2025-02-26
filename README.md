@@ -1,24 +1,24 @@
 # Huffman Coding Compression and Decompression
 
-## Overview
+### Overview
 This project implements Huffman Coding, a lossless data compression algorithm, in C++. It reads text from a file, calculates character frequencies and probabilities, builds a Huffman Tree, and generates Huffman codes. Additionally, it allows users to encode words into Huffman codes and decode Huffman-encoded text interactively.
 
-## Features
+### Features
 - 📄 Reads a text file and calculates character frequencies.
 - 🌳 Builds a Huffman Tree and generates Huffman codes.
 - 🔠 Encodes a user-input word into Huffman code.
 - 🔄 Decodes a given Huffman code back into text.
 - 💾 Saves character frequencies, probabilities, Huffman codes, and user interactions into an output file.
 
-## Prerequisites
+### Prerequisites
 - ✅ C++ Compiler (e.g., g++)
 - ✅ Basic understanding of data structures like trees and priority queues
 
-## File Structure
+### File Structure
 📂 Project Folder
-│── 📜 huffman.cpp             # Main implementation file
-│── 📜 James C. Maxwell Biography.txt  # Sample input file (replace as needed)
-│── 📜 Out_text.txt            # Output file storing results
+- │── 📜 huffman.cpp             # Main implementation file
+- │── 📜 James C. Maxwell Biography.txt  # Sample input file (replace as needed)
+- │── 📜 Out_text.txt            # Output file storing results
 
 ## How to Run
 1. Compile the code:
@@ -32,7 +32,7 @@ This project implements Huffman Coding, a lossless data compression algorithm, i
 * Save results and exit.
 
 ## Example Usage
-'''
+
 Options:
 1. Encode a word to Huffman code
 2. Decode Huffman code to text
@@ -40,12 +40,12 @@ Options:
 Enter your choice: 1
 Enter the word to encode: hello
 Huffman code for 'hello': 1010110110
-'''
+
 ## Output File (Out_text.txt)
 This file stores:
-📊 Character frequencies and probabilities
-🔢 Generated Huffman codes
-📝 Encoded and decoded text from user interactions
+- 📊 Character frequencies and probabilities
+- 🔢 Generated Huffman codes
+- 📝 Encoded and decoded text from user interactions
 
 ## Author
 👤 Developed by [G. Siddartha Reddy]
