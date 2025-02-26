@@ -4,15 +4,15 @@
 This project implements Huffman Coding, a lossless data compression algorithm, in C++. It reads text from a file, calculates character frequencies and probabilities, builds a Huffman Tree, and generates Huffman codes. Additionally, it allows users to encode words into Huffman codes and decode Huffman-encoded text interactively.
 
 ## Features
-📄 Reads a text file and calculates character frequencies.
-🌳 Builds a Huffman Tree and generates Huffman codes.
-🔠 Encodes a user-input word into Huffman code.
-🔄 Decodes a given Huffman code back into text.
-💾 Saves character frequencies, probabilities, Huffman codes, and user interactions into an output file.
+- 📄 Reads a text file and calculates character frequencies.
+- 🌳 Builds a Huffman Tree and generates Huffman codes.
+- 🔠 Encodes a user-input word into Huffman code.
+- 🔄 Decodes a given Huffman code back into text.
+- 💾 Saves character frequencies, probabilities, Huffman codes, and user interactions into an output file.
 
 ## Prerequisites
-✅ C++ Compiler (e.g., g++)
-✅ Basic understanding of data structures like trees and priority queues
+- ✅ C++ Compiler (e.g., g++)
+- ✅ Basic understanding of data structures like trees and priority queues
 
 ## File Structure
 📂 Project Folder
