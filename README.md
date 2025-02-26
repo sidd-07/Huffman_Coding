@@ -20,7 +20,7 @@ This project implements Huffman Coding, a lossless data compression algorithm, i
 - │── 📜 James C. Maxwell Biography.txt  # Sample input file (replace as needed)
 - │── 📜 Out_text.txt            # Output file storing results
 
-## How to Run
+### How to Run
 1. Compile the code:
  g++ -o huffman huffman.cpp
 2. Run the executable:
@@ -31,7 +31,7 @@ This project implements Huffman Coding, a lossless data compression algorithm, i
 * Decode a Huffman code back to text.
 * Save results and exit.
 
-## Example Usage
+### Example Usage
 
 Options:
 1. Encode a word to Huffman code
@@ -41,11 +41,11 @@ Enter your choice: 1
 Enter the word to encode: hello
 Huffman code for 'hello': 1010110110
 
-## Output File (Out_text.txt)
+### Output File (Out_text.txt)
 This file stores:
 - 📊 Character frequencies and probabilities
 - 🔢 Generated Huffman codes
 - 📝 Encoded and decoded text from user interactions
 
-## Author
+### Author
 👤 Developed by [G. Siddartha Reddy]
